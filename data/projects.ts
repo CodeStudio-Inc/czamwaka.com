@@ -22,8 +22,8 @@ export const projects: Project[] = [
     category: "Creative Direction",
     href: "#",
     imageSrc:
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=2200&q=90",
-    imageAlt: "Festival crowd illuminated by vibrant stage lighting",
+      "https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382470/Poster_3_copy_pjdi6d.png",
+    imageAlt: "Poster artwork for Lagos Cultural Summit",
     aspectRatio: "landscape"
   },
   {
@@ -31,8 +31,8 @@ export const projects: Project[] = [
     category: "Creative Production",
     href: "#",
     imageSrc:
-      "https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=2200&q=90",
-    imageAlt: "High-fashion portrait with expressive color styling",
+      "https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382503/Happy_Women_s_Day_v4_rrywgu.png",
+    imageAlt: "Happy Women's Day campaign poster artwork",
     aspectRatio: "square"
   }
 ];
