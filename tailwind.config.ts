@@ -15,8 +15,8 @@ const config: Config = {
         border: "var(--border)"
       },
       fontFamily: {
-        sans: ["var(--font-manrope)", "ui-sans-serif", "sans-serif"],
-        serif: ["var(--font-cormorant)", "ui-serif", "serif"]
+        sans: ["ChoppyLoose", "cursive"],
+        serif: ["ChoppyLoose", "cursive"]
       },
       backgroundImage: {
         "radial-texture":

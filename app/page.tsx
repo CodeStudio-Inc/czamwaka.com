@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ContactForm from "@/components/ContactForm";
+import { Mail, MessageCircle } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import SelectedWork from "@/components/SelectedWork";
 import { projects } from "@/data/projects";
@@ -81,7 +81,7 @@ export default function HomePage() {
               <p className="text-lg leading-relaxed text-muted sm:text-xl">
                 Mwaka leads KwonKalture Creatives, a multidisciplinary creative studio focused
                 on brand storytelling, cultural insight, and creative direction across Africa.
-                Her practice connects brand strategy, creative production, and community-driven
+                His practice connects brand strategy, creative production, and community-driven
                 campaigns to build work that is grounded in local identity while pushing a
                 forward-looking global perspective.
               </p>
@@ -106,7 +106,27 @@ export default function HomePage() {
             For partnerships, speaking opportunities, or project collaborations, send a note
             and the KwonKalture team will respond soon.
           </p>
-          <ContactForm />
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
+            <a
+              href="https://wa.me/256771675053"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 rounded-full border border-border px-5 py-3 text-sm uppercase tracking-[0.16em] text-foreground transition-colors hover:border-accent hover:text-accent"
+              aria-label="Chat on WhatsApp"
+            >
+              <MessageCircle size={17} />
+              WhatsApp
+            </a>
+
+            <a
+              href="mailto:mwakacaesar!gmail.com"
+              className="inline-flex items-center gap-3 rounded-full border border-border px-5 py-3 text-sm uppercase tracking-[0.16em] text-foreground transition-colors hover:border-accent hover:text-accent"
+              aria-label="Send an email"
+            >
+              <Mail size={17} />
+              mwakacaesar!gmail.com
+            </a>
+          </div>
         </Reveal>
       </section>
     </>

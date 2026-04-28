@@ -41,6 +41,7 @@ body {
 }
 
 body {
+  font-family: ChoppyLoose, cursive;
   color: var(--foreground);
   background-color: var(--surface);
   background-image:
