@@ -9,12 +9,12 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "KwonKalture Identity",
-    category: "Brand Strategy",
+    title: "Upgrade Your Salary Campaign",
+    category: "PostBank",
     href: "#",
     imageSrc:
-      "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=2200&q=90",
-    imageAlt: "Bold textile-inspired branding artwork",
+      "https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382468/Poster_1_dfgf07.png",
+    imageAlt: "Upgrade Your Salary campaign poster for PostBank",
     aspectRatio: "portrait"
   },
   {
