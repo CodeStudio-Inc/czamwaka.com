@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Providers from "@/components/Providers";
+
+const choppyLoose = localFont({
+  src: "../ChoppyLoose-Regular.woff2",
+  variable: "--font-choppy-loose",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: "Czamwaka | Mwaka Caesar – KwonKalture Creatives",
@@ -66,7 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="font-sans antialiased">
+      <body className={`${choppyLoose.variable} font-sans antialiased`}>
         <Providers>
           <div className="relative flex min-h-screen flex-col">
             <Header />
