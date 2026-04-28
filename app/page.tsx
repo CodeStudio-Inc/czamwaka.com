@@ -21,19 +21,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/70"
         />
 
-        <div className="relative mx-auto flex min-h-[70vh] w-full max-w-6xl items-end px-4 pb-16 pt-24 sm:px-8 sm:pb-20 sm:pt-32 lg:min-h-[80vh] lg:pb-28">
-          <Reveal className="relative z-10">
-            <p className="mb-6 text-xs uppercase tracking-[0.26em] text-accent">
-              Czamwaka Portfolio
-            </p>
-            <h1 className="max-w-4xl font-serif text-4xl leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-              Mwaka Caesar
-            </h1>
-            <p className="mt-5 max-w-2xl text-base text-white/85 sm:mt-6 sm:text-xl">
-              Where Culture Meets Creative Direction
-            </p>
-          </Reveal>
-        </div>
+        <div className="relative mx-auto min-h-[70vh] w-full max-w-6xl px-4 pb-16 pt-24 sm:px-8 sm:pb-20 sm:pt-32 lg:min-h-[80vh] lg:pb-28" />
       </section>
 
       <section id="work" className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
