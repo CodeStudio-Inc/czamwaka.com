@@ -21,26 +21,26 @@ export default function HomePage() {
           className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/70"
         />
 
-        <div className="relative mx-auto flex min-h-[72vh] w-full max-w-6xl items-end px-5 pb-20 pt-28 sm:px-8 sm:pt-32 lg:min-h-[80vh] lg:pb-28">
+        <div className="relative mx-auto flex min-h-[70vh] w-full max-w-6xl items-end px-4 pb-16 pt-24 sm:px-8 sm:pb-20 sm:pt-32 lg:min-h-[80vh] lg:pb-28">
           <Reveal className="relative z-10">
             <p className="mb-6 text-xs uppercase tracking-[0.26em] text-accent">
               Czamwaka Portfolio
             </p>
-            <h1 className="max-w-4xl font-serif text-5xl leading-[1.02] text-white sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-4xl font-serif text-4xl leading-[1.02] text-white sm:text-6xl lg:text-7xl">
               Mwaka Caesar
             </h1>
-            <p className="mt-6 max-w-2xl text-lg text-white/85 sm:text-xl">
+            <p className="mt-5 max-w-2xl text-base text-white/85 sm:mt-6 sm:text-xl">
               Where Culture Meets Creative Direction
             </p>
           </Reveal>
         </div>
       </section>
 
-      <section id="work" className="mx-auto w-full max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+      <section id="work" className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
         <Reveal>
-          <div className="mb-10 flex items-end justify-between gap-4">
+          <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <h2 className="font-serif text-4xl text-foreground sm:text-5xl">Selected Work</h2>
-            <p className="max-w-sm text-right text-sm uppercase tracking-[0.18em] text-muted">
+            <p className="max-w-sm text-left text-xs uppercase tracking-[0.16em] text-muted sm:text-right sm:text-sm sm:tracking-[0.18em]">
               Experiences that move culture and business
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function HomePage() {
 
       <section
         id="approach"
-        className="mx-auto w-full max-w-6xl border-y border-border/70 px-5 py-16 sm:px-8 sm:py-20"
+        className="mx-auto w-full max-w-6xl border-y border-border/70 px-4 py-16 sm:px-8 sm:py-20"
       >
         <Reveal>
           <div className="grid gap-10 lg:grid-cols-2 lg:items-stretch">
@@ -96,10 +96,10 @@ export default function HomePage() {
         </Reveal>
       </section>
 
-      <section id="contact" className="mx-auto w-full max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+      <section id="contact" className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-8 sm:py-20">
         <Reveal>
           <p className="text-xs uppercase tracking-[0.22em] text-accent">Contact</p>
-          <h2 className="mt-3 max-w-2xl font-serif text-4xl leading-tight text-foreground sm:text-5xl">
+          <h2 className="mt-3 max-w-2xl font-serif text-3xl leading-tight text-foreground sm:text-5xl">
             Let&apos;s shape culture-led work together.
           </h2>
           <p className="mt-5 max-w-xl text-muted">

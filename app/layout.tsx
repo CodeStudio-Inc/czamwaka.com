@@ -19,7 +19,56 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "Czamwaka | Mwaka Caesar – KwonKalture Creatives",
   description:
-    "Mwaka Caesar is the founder of KwonKalture Creatives, blending culture, strategy, and storytelling to shape bold African brand narratives."
+    "Mwaka Caesar is the founder of KwonKalture Creatives, blending culture, strategy, and storytelling to shape bold African brand narratives.",
+  keywords: [
+    "Mwaka Caesar",
+    "KwonKalture Creatives",
+    "creative director",
+    "brand storytelling",
+    "cultural strategy",
+    "African creative studio"
+  ],
+  metadataBase: new URL("https://czamwaka.com"),
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "Czamwaka | Mwaka Caesar – KwonKalture Creatives",
+    description:
+      "Culture-forward creative direction, storytelling, and brand strategy by Mwaka Caesar.",
+    url: "https://czamwaka.com",
+    siteName: "Czamwaka",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382296/IMAGINE_pw0lmd.png",
+        width: 1200,
+        height: 630,
+        alt: "Czamwaka portfolio hero image"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Czamwaka | Mwaka Caesar – KwonKalture Creatives",
+    description:
+      "Culture-forward creative direction, storytelling, and brand strategy by Mwaka Caesar.",
+    images: [
+      "https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382296/IMAGINE_pw0lmd.png"
+    ]
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
+  }
 };
 
 export default function RootLayout({
