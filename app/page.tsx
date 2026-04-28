@@ -54,32 +54,31 @@ export default function HomePage() {
         className="mx-auto w-full max-w-6xl border-y border-border/70 px-5 py-16 sm:px-8 sm:py-20"
       >
         <Reveal>
-          <div className="grid gap-10 lg:grid-cols-[320px_1fr] lg:items-start">
-            <div className="flex items-center gap-5 sm:gap-6 lg:flex-col lg:items-start">
-              <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full border border-border sm:h-28 sm:w-28">
+          <div className="grid gap-10 lg:grid-cols-2 lg:items-stretch">
+            <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-border/70 bg-surface/40">
+              <div className="relative aspect-[4/5] w-full lg:aspect-auto lg:min-h-[620px]">
                 <Image
-                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  src="https://res.cloudinary.com/dy8hw3vod/image/upload/v1777382855/a9704d5f-0e24-4acb-9085-9f10c130cc3e_2_1_zuke2d.png"
                   alt="Portrait of Mwaka Caesar"
                   fill
-                  sizes="112px"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
 
-              <div>
-                <h3 className="font-serif text-2xl text-foreground">Mwaka Caesar</h3>
-                <p className="mt-1 text-sm uppercase tracking-[0.15em] text-muted">
-                  Founder &amp; Creative Director, KwonKalture Creatives
+              <div className="p-6 sm:p-8">
+                <h3 className="font-serif text-3xl text-foreground">Mwaka Caesar</h3>
+                <p className="mt-2 text-sm uppercase tracking-[0.15em] text-muted">
+                  Founder &amp; Creative Director, KwonKalture Creatives.
+                </p>
+                <p className="mt-4 font-serif text-2xl leading-snug text-foreground">
+                  Creative entrepreneur and cultural strategist.
                 </p>
               </div>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2 md:gap-10">
-              <p className="font-serif text-2xl leading-snug text-foreground">
-                Creative entrepreneur and cultural strategist.
-              </p>
-
-              <p className="text-base leading-relaxed text-muted">
+            <div className="flex h-full items-center">
+              <p className="text-lg leading-relaxed text-muted sm:text-xl">
                 Mwaka leads KwonKalture Creatives, a multidisciplinary creative studio focused
                 on brand storytelling, cultural insight, and creative direction across Africa.
                 Her practice connects brand strategy, creative production, and community-driven
